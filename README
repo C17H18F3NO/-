@@ -1,3 +1,6 @@
-三天入门C#创建“科研项目管理系统”窗体
+# 三天入门C#创建“科研项目管理系统”窗体
 环境：Visual Studio 2017和SQL Server 2017
-
+## 登陆界面：
+![image](https://github.com/C17H18F3NO/ResearchProjectSystem/blob/master/images/%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2.jpg)
+在数据库中保存了三个用户：肖战、小甲和sa，密码都是12
+## 功能例子1：
