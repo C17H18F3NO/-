@@ -1,6 +1,14 @@
-# 三天入门C#创建“科研项目管理系统”窗体
+## 三天入门了C#，创建了一个很简便的“科研项目管理系统”窗体
 环境：Visual Studio 2017和SQL Server 2017
-## 登陆界面：
+### 登陆界面：
 ![image](https://github.com/C17H18F3NO/ResearchProjectSystem/blob/master/images/%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2.jpg)
 在数据库中保存了三个用户：肖战、小甲和sa，密码都是12
-## 功能例子1：
+但其实没有去实现记住密码和自动登陆这两个功能
+### 功能例子1：
+![image](https://github.com/C17H18F3NO/ResearchProjectSystem/blob/master/images/%E4%BE%8B%E5%AD%901.png?raw=true)
+在查询中，如果没有输入内容，即默认查看全部内容，删除同样没有指定内容，将会删除全部信息
+在添加信息时，期刊号不能为空
+### 功能例子2：
+![image](https://github.com/C17H18F3NO/ResearchProjectSystem/blob/master/images/%E4%BE%8B%E5%AD%902.png?raw=true)
+删除和查询时同上
+在做添加时，系别、职称和参加的项目，会有一个下拉的选项，是否为主持人如果没有选择就默认不是（当初弄数据库时好像有设置默认值）
